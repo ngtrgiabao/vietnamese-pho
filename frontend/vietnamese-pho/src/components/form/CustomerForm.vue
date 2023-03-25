@@ -1,6 +1,6 @@
 <template>
     <form
-        @submit.prevent="submitCustomer"
+        @submit="submitCustomer"
         class="my-20 flex flex-col items-center bg-white text-black p-20 rounded-md"
     >
         <span class="text-5xl font-bold uppercase text-red-500">{{
